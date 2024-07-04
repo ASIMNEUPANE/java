@@ -52,24 +52,26 @@
 // // constructor name should be same as class
 
 
-class Shape {
-    String color;
-}
+// class Shape {
+//     String color;
+// }
 
-class Traingle extends Shape{
+// class Traingle extends Shape{
 
     
-}
+// }
 
-public class main{
+// public class main{
 
-public  void main(String args[]){
-Traingle t1 = new Traingle();
-t1.color = "bliue";
+// public  void main(String args[]){
+// Traingle t1 = new Traingle();
+// t1.color = "bliue";
 
-}
+// }
 
-}
+// }
+
+
 
     
 

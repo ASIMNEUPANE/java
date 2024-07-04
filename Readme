@@ -1,0 +1,28 @@
+So, a class is a template for objects, and an object is an instance of a class.
+
+When the individual objects are created, they inherit all the variables and methods from the class.
+
+final before   final int x = 10;
+dont let you overwrite the variables
+
+
+constructor
+A constructor in Java is a special method that is used to initialize objects. 
+The constructor is called when an object of a class is created. It can be used 
+to set initial values for object attributes:
+
+sabai class ko constructor hunxa if we dont create it than java creates it
+However, then you are not able to set initial values for object attributes.
+
+public jata katai use garna milxa
+but private can only be use within the declared class
+
+
+==============================================================
+Modifier	Description
+final	Attributes and methods cannot be overridden/modified
+static	Attributes and methods belongs to the class, rather than an object
+abstract	Can only be used in an abstract class, and can only be used on methods. The method does not have a body, for example abstract void run();. The body is provided by the subclass (inherited from). You will learn more about inheritance and abstraction in the Inheritance and Abstraction chapters
+transient	Attributes and methods are skipped when serializing the object containing them
+synchronized	Methods can only be accessed by one thread at a time
+volatile	The value of an attribute is not cached thread-locally, and is always read from the "main memory"
