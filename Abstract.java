@@ -20,6 +20,6 @@ public class Abstract {
         
         Dog ani = new Dog();
         ani.sound();
-        ani.sleppSound();
+        ani.sl
     }
 }
